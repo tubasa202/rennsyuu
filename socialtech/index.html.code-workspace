@@ -1,0 +1,41 @@
+{
+	"folders": [
+		{
+			"path": "../index.html"
+		},
+		{
+			"path": "../form.html"
+		},
+		{
+			"path": "../layout.html"
+		},
+		{
+			"path": "../audio-tag.html"
+		},
+		{
+			"path": "../video-tag.html"
+		},
+		{
+			"path": "../details-tag.html"
+		},
+		{
+			"path": "../iframe-tag.html"
+		},
+		{
+			"path": "../HTML2_CSS"
+		},
+		{
+			"path": "../../kadai_005/html"
+		},
+		{
+			"path": "../../kadai_008"
+		},
+		{
+			"path": "../../kadai_014"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}
