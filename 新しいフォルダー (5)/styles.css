@@ -1,0 +1,95 @@
+/* 既存の CSS コード */
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: #fff9e6; /* Yellow-based background color */
+    color: #333; /* Dark text color */
+    text-align: center; /* 2⃣ 文章をセンターに */
+}
+
+/* ヘッダーのスタイル */
+header {
+    background-color: #ffcc00;
+    padding: 20px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* 1⃣ ヘッダーのリスト右寄せ */
+}
+
+.header-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    position: absolute; /* 初めは隠れている */
+    top: 60px; /* ヘッダーとの間隔調整 */
+    right: 20px;
+    background-color: #fff; /* 背景色を指定 */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* ドロップシャドウを追加 */
+    border-radius: 5px; /* 角を丸くする */
+    flex-direction: column; /* 縦に表示する */
+    opacity: 0; /* 最初は非表示 */
+    transition: opacity 0.3s ease; /* フェードのトランジションを追加 */
+}
+
+.header-list.active {
+    opacity: 1; /* クリックで表示 */
+}
+
+.header-list li {
+    margin-right: 0;
+    margin-bottom: 10px; /* リスト間のスペースを調整 */
+}
+
+/* フォームのスタイル */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label,
+form textarea,
+form input {
+    display: block;
+    margin-bottom: 15px; /* 3⃣ 項目ごとに改行調整 */
+}
+
+form textarea {
+    height: 150px; /* 3⃣ お問い合わせ内容のテキスト入力部分を2倍に増加 */
+}
+
+/* 新しく追加した CSS コード */
+
+.activity h3:nth-child(1)::after {
+    content: "参加して異文化交流を楽しもう！";
+}
+
+.activity h3:nth-child(2)::after {
+    content: "オンライン英会話で自分だけのレッスンを体験しよう！";
+}
+
+.activity h3:nth-child(3)::after {
+    content: "英語での遠足で新しい友達を作ろう！";
+}
+
+/* 新しく追加した CSS コード */
+
+/* フッターのスタイル */
+footer {
+    background-color: #ffcc00;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* 既存の CSS コード */
